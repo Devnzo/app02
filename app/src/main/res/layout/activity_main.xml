@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Texto 01"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:background="#F7F8A1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Texto 02"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:background="#A1F1F8"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Texto 03"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:background="#C3F830"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Texto 04"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:background="#C3F830"
+            />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Texto 05"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="#C61330"
+            />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Texto 06"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="#FF65"
+            />
+    </LinearLayout>
+</LinearLayout>
